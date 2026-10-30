@@ -37,7 +37,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun ShalatkuApp(viewModel: SalatKuViewModel = viewModel()) {
-    // Navigasi tab UI tetap menggunakan rememberSaveable
     var selected by rememberSaveable { mutableIntStateOf(0) }
 
     Scaffold(
